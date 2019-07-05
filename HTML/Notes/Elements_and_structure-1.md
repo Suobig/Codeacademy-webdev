@@ -1,4 +1,4 @@
-# ELements and structure
+# Elements and structure - Lesson 1
 
 HTML is the skeleton for all pages. It provides structure to the content appearing on a webstie, such as images, text, or videos.
 
