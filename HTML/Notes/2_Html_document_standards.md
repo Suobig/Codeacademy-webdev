@@ -1,4 +1,4 @@
-# Elements and structure - Lesson 2
+# HTML Document Standards
 
 ## Preparing for HTML
 
@@ -28,7 +28,9 @@ This element contains the _metadata_ for a web page. It's information about the 
 
 The heading has hight influence on how search robots evaluate your page. Your page will rank very high if the title of your page matches the search request.
 
-The _World Word Consortium_ (W3C) recomends the page title to be less than 64 characters long.
+The _World Wide Web Consortium_ (W3C) recomends the page title to be less than 64 characters long.
+
+> W3C is the main international standards organization in the World Wide Web. It's founded and led by Tim Berners-Lee and consists of 444 members. It's main goal is developing standards for the WWW, but it also engages in education and outreach, develops software and servers as an open forum for discussion about the Web.
 
 ## Page titles
 
