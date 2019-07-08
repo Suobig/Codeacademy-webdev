@@ -87,7 +87,7 @@ _Ordered lists_ `<ol>` are similar to unordered lists except each item is number
 
 ## Images
 
-The `<img>` tag is used to add images to a web page. `<img>>` is _self-closing_ tag, it ends with a closing forward slash. Self-closing tags may omit the final slash.
+The `<img>` tag is used to add images to a web page. `<img>` is _Void element_, it doesn't require closing tag.
 
 The `<img>` tag as a _required_ attribute called `src`. This attribute must be set to the image's _source_ or location of the image, for example, a _uniform resource locator_ (URL) of the image.
 
