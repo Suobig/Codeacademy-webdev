@@ -53,3 +53,7 @@ This tag has semantic meaning only, separating table into head, body and footer.
 We can section off bottom part of the long table with _table footer_ element using `<tfoot>` tag.
 
 Footers are usually used to contain sums, differences and other data results.
+
+## Styling with CSS
+
+By default tables look like nothing. To make them look good we should use CSS tables.
