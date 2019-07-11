@@ -54,5 +54,3 @@ You can check data type of a variable's value by using `typeof` operator:
 const foo = 'foo';
 console.log(typeof foo); //String
 ```
-
-
