@@ -81,5 +81,5 @@ There're certain properties to control background images:
 
 4. `background-size` - how to size image. Possible values:
    * `cover` - size image to cover as much space as possible without stretching
-   * `contain` - stretch the image as large as possible without stretching or cutting it.
+   * `contain` - size the image as large as possible without stretching or cutting it.
    * `px`, `em`, `rem`, `%` stretch the image by `X` or `Y` axis (first argument - `X` second - `Y`) to fit specific size.
