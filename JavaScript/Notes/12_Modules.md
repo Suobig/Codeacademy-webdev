@@ -22,8 +22,6 @@ function placeOrder() {
 placeOrder();
 ```
 
-`.js` extension in `require` is optional and will be assumed if not included.
-
 ## `export default`
 
 In ES6 there're 2 distinct techniques: _default export_ and _named export_.
