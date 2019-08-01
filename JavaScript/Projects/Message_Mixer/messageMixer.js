@@ -49,3 +49,8 @@ export function encode(string) {
   }
   return string;
 }
+
+export function palindrome(string) {
+  const reverse = reverseWord(string);
+  return `${string} | ${reverse}`;
+}
