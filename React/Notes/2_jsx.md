@@ -77,11 +77,7 @@ A JSX expression **must** have exactly **one** outermost element. So this is thi
 
 ```javascript
 const paragraphs = (
-<<<<<<< HEAD
   <p>I am a paragraph.</p>
-=======
-  <p>I am a paragraph.</p>
->>>>>>> 10a5cffae85ff243b6287230ad1d220c1c9e0db7
   <p>I, too, am a paragraph.</p>
 );
 ```
