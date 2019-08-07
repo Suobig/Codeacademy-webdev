@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>ravenous</h1>
+        <a href="."><h1>ravenous</h1></a>
         <SearchBar />
         <BusinessList />
       </div>
