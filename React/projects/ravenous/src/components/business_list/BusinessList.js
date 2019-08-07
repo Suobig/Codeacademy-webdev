@@ -3,15 +3,12 @@ import './BusinessList.css';
 import Business from '../business/Business';
 
 class BusinessList extends Component {
+  items = this.props.items.map(item => <Business data={item} />);
+
   render() {
     return (
     <div className="BusinessList">
-      <Business />
-      <Business />
-      <Business />
-      <Business />
-      <Business />
-      <Business />
+      {this.items}
     </div>
     );
   }
