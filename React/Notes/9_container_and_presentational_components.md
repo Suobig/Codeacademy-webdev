@@ -10,6 +10,8 @@ The idea is:
 
 _Presentational_ components don't render themeselves. They get rendered by _container_ components.
 
+On other hand, presentational components don't have any other class properties and they don't redefine base constructor. They contain only render() property.
+
 ## Container Components
 
 Container component `render()` function should return just a single line of JSX:
