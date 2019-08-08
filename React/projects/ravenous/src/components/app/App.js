@@ -15,7 +15,11 @@ const business = {
   reviewCount: 90
 }
 
-const businesses = Array(12).fill(business);
+const businesses = Array(12).fill("").map((_, index) => {
+  const b = {...business }
+  b.name += ` ${index + 1}`;
+  return b;
+});
 
 class App extends Component {
   render() {
