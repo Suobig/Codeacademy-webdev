@@ -9,7 +9,7 @@ We create a handler for onChange event to store the value in the state of the co
 ## Controlled vs Uncontrolled
 
 > An _uncontrolled component_ is a component that maintains its own internal state.
-
+>
 > A _controlled component_ is a component that doesn't maintain any internal state.
 
 Since controlle component has no internal state, it must be controlled by someone else.
