@@ -16,9 +16,6 @@ class App extends Component {
   searchYelp(term, location, sortBy) {
     Yelp.search(term, location, sortBy)
         .then(result => {
-          console.log('Got Result');
-          console.log(result);
-          
           this.setState({
             businesses: result
           })

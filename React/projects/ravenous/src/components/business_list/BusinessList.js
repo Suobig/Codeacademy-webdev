@@ -8,10 +8,11 @@ class BusinessList extends Component {
       return <Business key={item.id} data={item} />
     });
 
+    const placeHolder = <h2>Nothing to display</h2>;
     return (
-    <div className="BusinessList">
-      {items}
-    </div>
+      <div className="BusinessList">
+        {items.length ? items : placeHolder}
+      </div>
     );
   }
 }
