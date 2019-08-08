@@ -14,16 +14,30 @@ class SearchBar extends Component {
       location: "",
       sortBy: this.sortByOptions["Best Match"]
     };
+    this.handleLocationChange = this.handleLocationChange.bind(this);
+    this.handleTermChange = this.handleTermChange.bind(this);
   }
 
   getSortByClass(sortByOption) {
-    // console.log({ arg: sortByOption, state: this.state.sortBy});
-    
     return this.state.sortBy === sortByOption ? "active" : "";
   }
 
-  handleSortByClick(sortByOptionValue) {    
+  handleSortByClick(sortByOptionValue) {
     this.setState({ sortBy: sortByOptionValue });
+  }
+
+  handleTermChange(e) {
+    const newTerm = e.target.value;
+    // console.log({newTerm});
+    
+    this.setState({ term: newTerm })
+  }
+
+  handleLocationChange(e) {
+    const newLocation = e.target.value;
+    // console.log({newLocation});
+    
+    this.setState({ location: newLocation });
   }
 
   renderSortByOption() {
@@ -48,8 +62,8 @@ class SearchBar extends Component {
           <ul>{this.renderSortByOption()}</ul>
         </div>
         <div className="SearchBar-fields">
-          <input placeholder="Search Businesses" />
-          <input placeholder="Where?" />
+          <input placeholder="Search Businesses" onChange={this.handleTermChange}/>
+          <input placeholder="Where?" onChange={this.handleLocationChange} />
         </div>
         <div className="SearchBar-submit">
           <a href=".">Let's Go</a>
