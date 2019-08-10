@@ -102,3 +102,11 @@ npm test
 ### Skipping Test
 
 You may apply `.only(0)` or `.skip()` to `describe` or `it` blocks to limit the number of running test. See [mocha documentation](https://mochajs.org/#mochaopts) for more details.
+
+### Edge Cases
+
+Tests are often written for various edge cases. This is commin, because ppor handling of edge cases is reponsible for a lot of bugs.
+
+One common edge case is weird input. How would the function handle it? What if we don't pass any argument at all? Will the function return an error? Or `undefined`?
+
+Planning and testing for those edge cases is a common use of tests, and it can make the difference between a code that works 80% of a time, and a code that works 100% of a time.
